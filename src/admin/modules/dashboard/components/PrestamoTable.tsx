@@ -16,7 +16,7 @@ export const PrestamoTable = ({ rows }: DashboardTableProps) => {
             <GridToolbarContainer>                
                 <GridToolbarExport 
                     csvOptions={{
-                        fileName: "solicitudes",
+                        fileName: "prestamos",
                         utf8WithBom: true,
                         delimiter: ";", // "," - ";"
                     }}
